@@ -30,9 +30,8 @@ body {font-size:16px;}
     <li> <a href="#Week 5" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Week 5: Vinyl Cutting</a> </li>
     <li> <a href="#Week 6" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Week 6: Laser Cutting</a> </li>
     <li> <a href="#Week 7" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Week 7: Digital Embroidery</a> </li>
-    <li> <a href="#Week 8" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Week 8: Mold Making and Casting</a> </li>
-    <li> <a href="#Week 9" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Week 9: Electronics</a> </li>
-    <li> <a href="#Week 10" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Week 10: Final Project</a> </li>
+    <li> <a href="#Week 8" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Week 8: Integrate</a> </li>
+    <li> <a href="#Week 9" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Week 9: Final Project</a> </li>
     </ul>
     <a href="#Contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
   </div>
@@ -976,15 +975,213 @@ body {font-size:16px;}
     <p> </p>
     <a href="https://www.thesprucecrafts.com/how-to-sew-a-drawstring-bag-4685165">Drawstring Bag Tutorial</a>
   <div class="w3-container" id="Week 8" style="margin-top:75px"> </div>
-  <h1 class="w3-xxxlarge w3-text-pink"><b>Week 8: Mold Making and Casting.</b></h1>
+  <h1 class="w3-xxxlarge w3-text-pink"><b>Week 8: Integrate.</b></h1>
     <hr style="width:50px;border:5px solid lightblue" class="w3-round">
-    <p> Information to come 11/1:) </p>
+    <p>For this weeks project, I created an acrylic sign with working LED lights and a 3D printed base.</p>
+    <p> </p>
+    <img src="createPlaylist.png" 
+    width="400” 
+    height="200">
+    <img src="getSpotifyCode.PNG" 
+    width="130” 
+    height="200">
+    <p>To begin, I had to come up with what design I wanted on my acrylic sign. As exemplified in past projects, I am practically obsessed with my dogs, so I decided I wanted to create another dog focused project. I came up with the idea of creating a spotify "curretly playing" image to engrave on the acrylic sign, but I had to figure out how to combine my two ideas. To combine both of my ideas, I created a Spotify playlist that contained songs about dogs, and designed a currently playing design that included the Spotify code that linked to my playlist.</p>
+    <img src="AIAcrylicImportFile.png" 
+    width="400” 
+    height="200">
+    <img src="AIAcrylicRectangle.png" 
+    width="400” 
+    height="200">
+    <img src="AIAcrylicRoundEdges.png" 
+    width="400” 
+    height="200">
+    <p>To design my acrylic sign, I uploaded the provided acrylic file template to Adobe Illustrator. Ontop of the premeasured base, I added a rectangle with rounded edges to create the basic cutout to my design. </p>
+    <img src="AIAcrylicAddDesigns.png" 
+    width="400” 
+    height="200">
+    <p>Using the rectangle, oval(circle), and polygon(triangle) tools, I created the basic design of the Spotify "currently playing" screen. I used the design of my 4 dogs from my "Week 5: Vinyl Cutting" project as the main "album cover." As the title and "artist's names" I used the name of my playlist "for my dogs" and the name of my 4 dogs, respectively. To prepare the text to be engraved on the laser cutter, I had to select all of the text and press "create outlines."</p>
+    <img src="AIAcrylicSpotifyLogo.png" 
+    width="400” 
+    height="200">
+    <p>I had trouble getting a clear design for the spotify code by just simply adding the image to Illustrator. So, instead, after uploading the image, I used the paintbrush tool to trace the code, which created a higher quality design. </p>
+    <img src="AIAcrylicFlip.png" 
+    width="400” 
+    height="200">
+    <p>To finalize my acrylic sign design, I had to horizontally flip the whole design in preparation for engraving on the laser cutter.</p>
+    <p> </p>
+    <p>Due to the fact that I was not able to get into the lab earlier to get an idea of how to design the 3D printed case, my first design was created on a whim. My main idea was to create a box which fit snuggly around the wooden pieces. Beyond that, I had no guidance. So, I basically printed my box just like that. Below is how that worked out for me.</p>
+    <img src="AIGetMeasurementsOfWood.png" 
+    width="400” 
+    height="200">
+    <img src="3DCoverStartingDimensions.png" 
+    width="400” 
+    height="200">
+    <p>The next major step was to design the case for my sign which would be fabricated on the 3D printer. To start my case design in Fusion 360, I collected the measurements from the provided wood cutout file, and rounded up to allow a very small amount of wiggle room when inserting the wooden pieces.</p>
+    <img src="AICornerMeasurement.png" 
+    width="400” 
+    height="200">
+    <img src="3DCoverFiletCorners.png" 
+    width="400” 
+    height="200">
+    <p>Similarly, the wooden pieces were designed to have rounded edges. So, to beable to fit the wooden pieces into the case, I obtained the radius of the edges on the Illustrator file, rounded it up, and fileted the edges on Fusion 360.</p>
+    <img src="3DCoverExtrudeUp.png" 
+    width="400” 
+    height="200">
+    <img src="3DCoverExtruded.png" 
+    width="400” 
+    height="200">
+    <p>I then extruded the base up 2in. to ensure enough room for the three wooden pieces, LED lights, and circut board wires to fit. </p>
+    <img src="3DCoverAddSlot.png" 
+    width="400” 
+    height="200">
+    <img src="3DCoverCutSlot.png" 
+    width="400” 
+    height="200">
+    <p>Using the meausrement obtained from the Illustrator file, I added the rectangle used for the slot at the top of the cover. I then extruded the slot down to cut into the existing body.</p>
+    <img src="3DCoverShellOutside.png" 
+    width="400” 
+    height="200">
+    <img src="3DCoverShelled.png" 
+    width="400” 
+    height="200">
+    <img src="3DCoverReCutSlot.png" 
+    width="400” 
+    height="200">
+    <p>I then realized that I created all of these measurements to the exact size of the wooden pieces, so if I were to shell the design, it would be too small. When playing with the shell settings, I realized that there was a way to shell to the outside, leaving my precise measurements intact. After, shelling the case, the extrusion of the slot was interrupted, so I had to re-extrude/re-cut the slot.</p>
+    <img src="3DCoverPlugMeasurements.png" 
+    width="400” 
+    height="200">
+    <img src="3DCoverCutPlug.png" 
+    width="400” 
+    height="200">
+    <p>Using the obtained measurements which represent the whole that the plug will come through, I sketched a rectangle onto the case body. Using the extrusion/cut tool, I cut this hole into the body of the cover.</p>
+    <img src="3DCoverFinalDesign.png" 
+    width="400” 
+    height="200">
+    <img src="3DCoverInPrusaSlicer.png" 
+    width="400” 
+    height="200">
+    <p>At this point, I had finished the design for my case, opened the STL file in PrusaSlicer, and exported my g-code after ensuring all of my settings were in place. </p>
+    <img src="3DPrintingCase.PNG" 
+    width="200” 
+    height="200">
+    <img src="casePrinted.PNG" 
+    width="350” 
+    height="200">
+    <p>After exporting my g-code, I saved it onto an SD card to be pluged into one of the Prusa MK3 3D printers and began printing my base.</p>
+    <p> </p>
+    <p>The next component of this project was creating the circut board to be used with the LED lights. This part of the project went over a little differently than normal. For the electronics training, instead of creating a small training project, we created our actual circut board durign our training. </p>
+    <p> </p>
+    <img src="SRMSettings.PNG" 
+    width="400” 
+    height="200">
+    <img src="importingFileToSRM.PNG" 
+    width="400” 
+    height="200">
+    <img src="boardBeingCut.PNG" 
+    width="400” 
+    height="200">
+    <p>Using the circut board design provided, we began the process of cutting and carving the pathways of the circut board onto a thin piece of plastic with a sheet of copper over it, using an SRM machine. We first set up the home setting on the associated software. We imported one of our design files, ran the machine, and repeated for our other 2 design files. </p>
+    <img src="solderingSetup.PNG" 
+    width="400” 
+    height="200">
+    <p>The soldering station that was setup by my trainor included a clamp, a heat gun, soldering paste, soldering metal, and a soldering iron.</p>
+    <img src="plugSolderedOnBoard.PNG" 
+    width="400” 
+    height="200">
+    <img src="solderingPaste.PNG" 
+    width="400” 
+    height="200">
+    <p>Using the soldering paste, we placed the plug onto the circut board, and used the heat gun to melt the soldering paste in order to set the solder. This method of soldering was used to connect parts of the circut board that didn't need an extra level of strength. If extra strength was required, we used a different method which involved soldering metal and a soldering iron. To solder pieces such as the connectors and the wires, we placed the soldering metal near the are and heated it with the soldering iron until the metal had melted onto the area. </p>
+    <img src="circutBoardDone.PNG" 
+    width="400” 
+    height="200">
+    <img src="boardsGlued.PNG" 
+    width="400” 
+    height="200">
+    <p>After testing all of the wires to ensure our circut board was soldered correctly, we had our completed circut board. To prepare the board to go in the base, I used scrap pieces of wood and a hot glue gun to stack the 2 wooden boards, so they didn't move around.</p>
+    <img src="cuttingWoodTestPrint.PNG" 
+    width="400” 
+    height="200">
+    <img src="woodTestPrint.PNG" 
+    width="300” 
+    height="200">
+    <p>Before we could cut our design into our acrylic, we had to run a test print on scrap plywood. To run the laser cut, I used all of the steps outlined in "Week 6: Laser Cutting." After running a few tests, I still did not like the way the play button and spotify logo were printing. So, I received help form my teacher to correct the problem prior to printing on acrylic.</p>
+    <img src="formattignForAcrylicCut.PNG" 
+    width="300” 
+    height="200">
+    <img src="customGlowForgeSettings.PNG" 
+    width="200” 
+    height="200">
+    <img src="cuttingAcrylic.PNG" 
+    width="300” 
+    height="200">
+    <img src="acrylicSign.PNG" 
+    width="300” 
+    height="200">
+    <p>When I was happy with my design, I inserted my piece of acrylic and lined my design up. Becuase we were cutting on acrylic, we had to input custum cut and engrave settings in order for the cut to run smoothely. After the cut was complete, I had another step to the project complete! The one problem with this part of the project, was that the glowforge app used to print to the laser cutter, resized our Illustrator file, and we had not realized it until after the fact. To solve this problem, my teacher printed me a wooden piece with a smaller slot.</p>
+    <img src="acrylicAndCaseNOBase.PNG" 
+    width="400” 
+    height="200">
+    <p>I assembeled my project by glueing the wooden slot to the top of the 3D printed cover and pusing the other two boards into the bottom of the case. To top it off, I inserted the acrylic sign. After observing my porject, I decided I needed something at the base of the cover to encase the wooden pieces. </p>
+    <img src="3DBaseMeasurements.png" 
+    width="400” 
+    height="200">
+    <img src="3DBaseFiletCorners.png" 
+    width="400” 
+    height="200">
+    <p>To create the base for my 3D printed case, I opened my Fusion 360 file back up so I could work directly on the same workspace. To begin the design, I created a rectangle which extended 0.25 in. on all 4 sides of the original case. I added a filet to all 4 corners, with a radius that was proportionally bigger than the original corners.</p>
+    <img src="3DBaseExtrudeDown.png" 
+    width="400” 
+    height="200">
+    <img src="3DBaseExtrudeUp.png" 
+    width="400” 
+    height="200">
+    <p>I then performed 2 seperate extrusions to create the the base. I first extruded the base down to create a part of the base below the plane of the case. I then performed an upwards extrusion with a thickness of 0.23 in. in order to create a border around the base, to hold it in place. </p>
+    <img src="3DBasePlugMeasurement.png" 
+    width="400” 
+    height="200">
+    <img src="3DBaseCutPlug.png" 
+    width="400” 
+    height="200">
+    <p>To allow space for the cord to exit, I created a rectangle on the base wall and used the extrude tool to cut the shape out.</p>
+    <img src="3DBaseFinalDesign.png" 
+    width="400” 
+    height="200">
+    <img src="3DBasePrusaSlicer.png" 
+    width="400” 
+    height="200">
+    <p>Once I had my final base design, I opened the STL file in PrusaSlicer, ensured all the correct settings were in, and exported my g-code to an SD card.</p>
+    <img src="3DPrintingBase.PNG" 
+    width="200” 
+    height="200">
+    <img src="basePrinted.PNG" 
+    width="400” 
+    height="200">
+    <p>I was then able to print my base on the 3D printer. When the printer was done, I had the final component to my project!</p>
+    <img src="finalAcrylicSignFront.PNG" 
+    width="400” 
+    height="200">
+    <img src="finalAcrylicSignBack.PNG" 
+    width="400” 
+    height="200">
+    <img src="finalAcrylicSignLit.PNG" 
+    width="400” 
+    height="200">
+    <p>Once I placed the 3D printed case into the base, with all of the wooden pieces, and the acrylic sign, I had my finished project. When I plugged it in, the LED light lit up green, which I thought was very fitting for my Spotify themed project with a green cover and base.</p>
+    <p> </p>
+    <a href="AMS_AcrylicSign.svg">My Adobe Illustrator File</a>
+    <p> </p>
+    <a href="AMS_AcrylicSignShell v1.stl">My Fusion 360 Case File</a>
+    <p> </p>
+    <a href="AMS_AcrylicSignShell v1_0.2mm_PLA_MK3_6h24m.gcode">My Prusa Case G-Code</a>
+    <p> </p>
+    <a href="AMS_AcrylicSignShellBase v1.stl">My Fusion 360 Base File</a>
+    <p> </p>
+    <a href="AMS_AcrylicSignShellBase v1_0.2mm_PLA_MK3_2h34m.gcode">My Prusa Base G-Code</a>
+    <p> </p>
   <div class="w3-container" id="Week 9" style="margin-top:75px"> </div>
-  <h1 class="w3-xxxlarge w3-text-pink"><b>Week 9: Electronics.</b></h1>
-    <hr style="width:50px;border:5px solid lightblue" class="w3-round">
-    <p> Information to come 11/8 :) </p>
-  <div class="w3-container" id="Week 10" style="margin-top:75px"> </div>
-  <h1 class="w3-xxxlarge w3-text-pink"><b>Week 10: Final Project.</b></h1>
+  <h1 class="w3-xxxlarge w3-text-pink"><b>Week 9: Final Project.</b></h1>
     <hr style="width:50px;border:5px solid lightblue" class="w3-round">
     <p> Information to come 11/15, 11/22, 12/6, 12/13 :) </p>
     
